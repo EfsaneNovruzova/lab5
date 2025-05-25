@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  .left-panel, .right-panel {
+    padding: 20px;
+  }
+  .left-panel {
+    background-color: #f0f0f0;
+    width: 35%;
+  }
+  .right-panel {
+    background-color: #ffffff;
+    width: 65%;
+  }
+  .highlight {
+    color: #5459AC;
+    font-weight: bold;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .accordion-btn {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: #5459AC;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }
+  .accordion-content.active {
+    display: block;
+  }
+  .accordion-btn:hover {
+    background-color: #5459AC;
+  }
+  .active{
+      display: block !important;
+  }
+  .accordion-btn + *{
+      display: none;
+  }
+  .icon{
+      width: 20px;
+      height: 20px;
+  }
+  #contact-form{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  #contact-form input{
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  #contact-form button{
+      padding: 10px;
+      background-color: #5459AC;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  #contact-form button:hover{
+      background-color: #648DB3;
+  }
+  #form-message{
+      margin-top: 10px;
+  }
+  #email-error, #phone-error{
+      color: red;
+  }
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #5459AC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#edit-profile-btn, #edit-reference-btn{
+    margin-left: 10px;
+}

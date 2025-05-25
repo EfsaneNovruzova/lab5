@@ -1,0 +1,52 @@
+{
+    "name": "ƏFSANƏ <span class='highlight'>NOVRUZOVA</span>",
+    "title": "STUDENT",
+    "contact": [
+        { "icon": "email.png", "text": "novruzovafsan88@gmail.com" },
+        { "icon": "phone.png", "text": "0514029353" },
+        { "icon": "date.png", "text": "2007-01-01" }
+    ],
+    "socialMedia": [
+        { "icon": "instagram.png", "text": "_e_.986" },
+        { "icon": "tik-tok.png", "text": "_e_.986" },
+        { "icon": "github.png", "text": "EfsaneNovruzova" }
+    ],
+    "education": [
+        { "period": "2013 - 2024", "school": "Secondary school number 96" },
+        { "period": "2024 - 2025", "school": "AzTU - Information Security" }
+    ],
+    "skills": ["Python Programming", "Cybersecurity", "Creativity", "Chef"],
+    "languages": ["Azerbaijani", "English", "Turkish"],
+    "profile": "Dedicated cybersecurity student with a growing portfolio of personal projects in ethical hacking, network security, and malware analysis. Curious by nature and always exploring new ways to improve system defenses and digital safety.",
+    "workExperience": [
+        {
+            "title": "Cybersecurity Intern – SafeNet Solutions",
+            "details": ["Assisted with vulnerability assessments, penetration testing, and security documentation for enterprise-level networks."]
+        },
+        {
+            "title": "Content Writer – BrightPen Agency",
+            "details": ["Wrote SEO-optimized articles and blog posts for various industries including tech, health, and finance."]
+        }
+    ],
+    "reference": "Ms. Emily Roberts, the HR Director at GlobalWare Inc., supervised me during my time there as a marketing coordinator. She was a key figure in my professional development, providing guidance on everything from team collaboration to communication strategies. Her ability to recognize talent and support employee growth has had a lasting impact on my career. You can contact her at",
+    "certifications": [
+        {
+            "name": "Oracle Certified Professional (OCP)",
+            "description": "This certification confirms advanced knowledge and expertise in managing and administering Oracle databases..."
+        },
+        {
+            "name": "CompTIA Security+",
+            "description": "Acquired foundational knowledge of cybersecurity principles including threat management, cryptography, identity access management, and secure network architecture."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Inventory Management System",
+            "description": "Designed an inventory management system for small businesses to track product stock, sales, and orders using C# and SQL."
+        },
+        {
+            "name": "Machine Learning Model for Prediction",
+            "description": "Implemented a machine learning model in Python for predicting future sales based on historical data using scikit-learn and pandas."
+        }
+    ]
+}

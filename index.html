@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Left Panel -->
+    <div class="left-panel">
+      <div id="header">
+        <img src="photos/profile.jpg" alt="profile" style="width: 150px; height: 150px; border-radius: 50%;aspect-ratio: 1/1;object-fit: cover;">
+        <h1 id="name"></h1>
+        <h3 id="title"></h3>
+      </div>
+
+      <div class="section" id="contact-section">
+        <h2 class="accordion-btn">Contact</h2>
+        <div id="contact-list">
+            <form id="contact-form">
+                <label>
+                <img src="photos/email.png" alt="email" class="icon">
+                <input type="text" name="email" id="email" required disabled/>
+                </label>
+                <label>
+                <img src="photos/phone.png" alt="phone" class="icon">
+                <input type="text" name="phone" id="phone" required disabled/>
+                </label>
+                <label>
+                <img src="photos/date.png" alt="date" class="icon">
+                <input type="date" name="date" id="date" required disabled/>
+                </label>
+                <button type="button" id="editSaveToggle">Edit</button>
+                <button type="button" onclick="initContactForm(event)">Submit</button>
+                <div id="form-message"></div>
+            </form>
+        </div>
+      </div>
+
+      <div class="section" id="social-section">
+        <h2 class="accordion-btn">Social</h2>
+        <div id="social-list"></div>
+      </div>
+
+      <div class="section" id="education-section">
+        <h2 class="accordion-btn">Education</h2>
+        <ul id="education-list"></ul>
+      </div>
+
+      <div class="section" id="skills-section">
+        <h2 class="accordion-btn">Skills</h2>
+        <ul id="skills-list"></ul>
+      </div>
+
+      <div class="section" id="languages-section">
+        <h2 class="accordion-btn">Languages</h2>
+        <ul id="languages-list"></ul>
+      </div>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+        <button onclick="resetData()">Reset data</button>
+      <div class="section" id="profile-section">
+        <h2 class="accordion-btn">Profile</h2>
+        <p id="profile-text"></p>
+      </div>
+
+      <div class="section" id="work-section">
+        <h2 class="accordion-btn">Work Experience</h2>
+        <div id="work-list"></div>
+      </div>
+
+      <div class="section" id="certifications-section">
+        <h2 class="accordion-btn">Certifications</h2>
+        <div id="certifications-list"></div>
+      </div>
+
+      <div class="section" id="projects-section">
+        <h2 class="accordion-btn">Projects</h2>
+        <div id="projects-list"></div>
+      </div>
+
+      <div class="section" id="reference-section">
+        <h2 class="accordion-btn">Reference</h2>
+        <p id="reference-text"></p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
